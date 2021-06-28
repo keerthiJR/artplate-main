@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: red; */
+}
+.body__drop {
+  background-color: blue;
+}
+.lower-canvas,
+#c {
+  /* left: 56% !important; */
+  /* width: 800px !important;
+  height: 450px !important; */
+  width: 100% !important;
+  height: 100% !important;
+  /* display: flex;
+  flex: 1;
+  justify-content: center; */
+  z-index: -1 !important;
+}
+.canvas-container {
+  width: 60% !important;
+  height: 65% !important;
+  /* display: flex;
+  flex: 1;
+  justify-content: center; */
+  left: 25% !important;
+  /* flex: auto;
+  justify-content: center; */
+  z-index: -1 !important;
+}
+@media  screen and (orientation:landscape) {
+  .lower-canvas,
+#c {
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -1 !important;
+}
+.canvas-container {
+  width: 60% !important;
+  height: 45% !important;
+  left: 25% !important;
+  z-index: -1 !important;
+  
+}
+.labels__styles {
+  display: block !important;
+  text-align: center !important;
+  margin-bottom: 5% !important;
+}
+}
+
+@media  screen and (orientation:portrait) {
+  .lower-canvas,
+#c {
+
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -1 !important;
+}
+.canvas-container {
+  margin-top: 75px;
+  width: 60% !important;
+  height: 35% !important;
+  left: 25% !important;
+  z-index: -1 !important;
+}
+.labels__styles {
+  display: block !important;
+  text-align: center !important;
+  margin-top: 1%;
+  margin-bottom: 3% !important;
+}
+.drop__down {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: 25px;
+  padding: 1%;
+  justify-content: space-between;
+}
+}
+
+.drop__down {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 1%;
+  justify-content: space-between;
+}
+.labels__styles {
+  display: block !important;
+  text-align: center !important;
+  margin-bottom: 3% !important;
+}
+.bg__img {
+  background: url("../img/about-bg.jpg") center center;
+  background-size: cover;
+  position: relative;
+  /* padding: px 0; */
+  background: rgba(0, 0, 0, 0.9);
+}
+.form-select {
+  background-color: #6c757d !important;
+  color: #fff !important;
+  border-color: #6c757d !important;
+  margin-top: 3% !important;
+}
+
+/* label{
+  display: block !important;
+  text-align: center !important;
+  margin-top:2.5% !important;
+} */
+/* .bg__img:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+} */
