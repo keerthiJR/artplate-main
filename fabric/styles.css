@@ -32,7 +32,7 @@ body {
   justify-content: center; */
   z-index: -1 !important;
 }
-@media  screen and (orientation:landscape) {
+@media  screen and (orientation:landscape) and (max-device-width: 1000px){
   .lower-canvas,
 #c {
   width: 100% !important;
@@ -40,8 +40,8 @@ body {
   z-index: -1 !important;
 }
 .canvas-container {
-  width: 60% !important;
-  height: 45% !important;
+  width: 50% !important;
+  height: 40% !important;
   left: 25% !important;
   z-index: -1 !important;
   
@@ -49,11 +49,10 @@ body {
 .labels__styles {
   display: block !important;
   text-align: center !important;
-  margin-bottom: 5% !important;
 }
 }
 
-@media  screen and (orientation:portrait) {
+@media  screen and (orientation:portrait) and (max-device-height: 10000px){
   .lower-canvas,
 #c {
 
@@ -72,7 +71,6 @@ body {
   display: block !important;
   text-align: center !important;
   margin-top: 1%;
-  margin-bottom: 3% !important;
 }
 .drop__down {
   display: flex !important;
