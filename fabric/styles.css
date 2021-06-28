@@ -35,7 +35,7 @@ body {
 @media  screen and (orientation:landscape) and (max-device-width: 1000px){
   .lower-canvas,
 #c {
-  width: 100% !important;
+  width: 75% !important;
   height: 100% !important;
   z-index: -1 !important;
 }
@@ -57,7 +57,7 @@ body {
 #c {
 
   width: 100% !important;
-  height: 100% !important;
+  height: 75% !important;
   z-index: -1 !important;
 }
 .canvas-container {
